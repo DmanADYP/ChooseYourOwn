@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CYAEngine\BaseItems\BaseCard.cs" />
+    <Compile Include="CYAEngine\BaseItems\BaseCharacter.cs" />
+    <Compile Include="CYAEngine\BaseItems\BaseEquipment.cs" />
+    <Compile Include="CYAEngine\Characters\Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -49,7 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Cards\" />
-    <Folder Include="CYAEngine\" />
     <Folder Include="Login\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
