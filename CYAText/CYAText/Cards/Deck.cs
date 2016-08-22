@@ -24,7 +24,9 @@ namespace CYAText.Cards
             List<BaseCard> tempDeck = new List<BaseCard>();
             for (int index = 0; index < deck.Count; index++)
             {
-                tempDeck.Add(deck.ElementAt(rand.Next(0,deck.Count-1)));
+                int indexCard = rand.Next(0, deck.Count - 1);
+                tempDeck.Add(deck.ElementAt(indexCard));
+                deck.RemoveAt(indexCard);
             }
             deck = tempDeck;
         }
