@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cards\Deck.cs" />
     <Compile Include="CYAEngine\BaseItems\BaseCard.cs" />
     <Compile Include="CYAEngine\BaseItems\BaseCharacter.cs" />
     <Compile Include="CYAEngine\BaseItems\BaseEquipment.cs" />
@@ -52,7 +53,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Cards\" />
     <Folder Include="Login\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
